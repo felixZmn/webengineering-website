@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>TESA</title>
+    </head>
+
+    <body>
+        <nav>
+            <a href="index.html"><h1>tesa</h1></a>
+            <ul>
+                <li><a href="./limousine.html">Limousine</a></li>
+                <li><a href="#">Coupè</a></li>
+                <li><a href="#">Roadster</a></li>
+                <li><a href="#">SUV</a></li>
+                <li><a href="#">Van</a></li>
+            </ul>
+            <span><a id="nav-trigger" href="#">menu</a></span>
+            <div id="extended-nav" class="extended-nav d-none">
+                <a id="nav-close" class="close" href="#"></a>
+                <!-- prettier-ignore -->
+                <a class="menu-link" href="#"><div class="extended-nav-text">Über uns</div></a>
+                <!-- prettier-ignore -->
+                <a class="menu-link" href="./jobs.html"><div class="extended-nav-text">Jobs</div></a>
+                <!-- prettier-ignore -->
+                <a class="menu-link" href="#"><div class="extended-nav-text">Standorte</div></a>
+            </div>
+        </nav>
+        <main>
+            <article class="article">
+                <h2>Teamleiter Entwicklung (m/w/d) Mobile</h2>
+                <form>
+                    <label for="title">Titel:</label>
+                    <input id="title" name="title" type="text" />
+                    <label for="name">Name:</label>
+                    <input id="name" name="name" type="text" />
+                    <label for="surname">Vorname:</label>
+                    <input id="surname" name="surname" type="text" />
+                    <label for="birthday">Geburtstag:</label>
+                    <input id="birthday" name="birthday" type="date" />
+
+                    <label for="road">Straße:</label>
+                    <input id="road" name="road" type="text" />
+                    <label for="city">Ort:</label>
+                    <input id="city" name="city" type="text" />
+                </form>
+                <a href="#" class="button c-black">Jetzt bewerben</a>
+            </article>
+        </main>
+        <footer>
+            <a href="#">Impressum</a>
+            <a href="#">Datenschutz</a>
+        </footer>
+    </body>
+    <script src="./scripts/scripts.js"></script>
+</html>

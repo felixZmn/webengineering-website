@@ -24,6 +24,18 @@
         margin-right: auto;
     }
 
+    /*double class because of weight of selector*/
+    .button.button {
+        background-color: white;
+        color: black;
+        padding: 1em;
+    }
+
+    .button:hover {
+        background-color: var(--ci-color);
+        color: black;
+    }
+
     a,
     a:visited {
         text-decoration: none;
@@ -96,16 +108,12 @@
         padding-top: 5em;
         width: 62%;
         height: calc(100% - 5em);
-        color: white;
         background: #686868;
     }
 
     .extended-nav .menu-link {
-        /*meh*/
-        color: white;
         width: 100%;
         float: left;
-        /*margin-top: 20px;*/
         text-align: center;
     }
     .extended-nav-text {
@@ -114,10 +122,27 @@
         padding: 1em;
         border-bottom: solid 1px white;
     }
+
     .extended-nav .menu-link:hover,
     .menu-link:focus {
         /*meh*/
         color: var(--ci-color);
+    }
+
+    form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    form label,
+    form input {
+        margin-top: 1em;
+    }
+
+    form label {
+        text-align: right;
+        margin-right: 1em;
     }
 
     .content-img {
