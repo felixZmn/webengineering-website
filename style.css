@@ -43,10 +43,7 @@
     h2 {
     }
 
-    h3 {
-    }
-
-    .car-description {
+    .article {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -133,6 +130,27 @@
         width: 100%;
     }
 
+    .jobs {
+        width: 100%;
+    }
+
+    .job {
+        display: grid;
+        grid-template-columns: 50% 25% 25%;
+    }
+
+    .job h3,
+    .job p,
+    .job a {
+        font-size: 16px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    .job a {
+        text-align: right;
+    }
+
     .close {
         position: fixed;
         right: 1em;
@@ -199,7 +217,7 @@
         width: 20em;
     }
 
-    .car-description {
+    .article {
         flex-direction: row;
         gap: 2em;
         border-bottom: none;
