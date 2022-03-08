@@ -30,8 +30,11 @@
         color: black;
         padding: 1em;
         border: none;
+        border-radius: 0.5rem;
         cursor: pointer;
         outline: none;
+        text-align: center;
+        margin: 1em;
     }
 
     .button:hover {
@@ -143,7 +146,7 @@
     form {
         width: 100%;
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 40% 60%;
     }
 
     form label,
@@ -181,6 +184,7 @@
         font-size: 16px;
         margin-top: 1em;
         margin-bottom: 1em;
+        padding: 1em;
     }
 
     .job a {
@@ -220,7 +224,7 @@
     }
 
     footer {
-        margin-top: -40px;
+        /*margin-top: -40px;*/
         bottom: calc(0 - var(--footer-height));
         height: var(--footer-height);
         width: 100%;
@@ -230,6 +234,10 @@
         justify-content: center;
         align-items: center;
         gap: 3em;
+    }
+
+    .footerStart {
+        margin-top: -40px;
     }
 }
 
@@ -268,7 +276,13 @@
         width: 38em;
     }
 
-    footer {
+    form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 32% 68%;
+    }
+
+    .footerStart {
         /*WTF?!*/
         margin-top: -4px;
     }
