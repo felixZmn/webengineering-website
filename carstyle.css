@@ -21,10 +21,13 @@
         border-radius: 0.5rem;
     }
     
-    button:hover {
+    button:hover, 
+    button:focus {
+        background-color: var(--ci-color);
+        color: black;
         cursor: pointer;
     }
-
+    
     .description {
         margin-bottom: 4em;
     }
