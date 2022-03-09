@@ -2,6 +2,7 @@
 @media only screen {
     :root {
         --ci-color: orange;
+        --background-grey: #585858;
         --footer-height: 4em;
     }
 
@@ -122,7 +123,7 @@
         padding-top: 5em;
         width: 62%;
         height: calc(100% - 5em);
-        background: #686868;
+        background: var(--background-grey);
     }
 
     .extended-nav .menu-link {
@@ -228,7 +229,7 @@
         bottom: calc(0 - var(--footer-height));
         height: var(--footer-height);
         width: 100%;
-        background-color: #686868;
+        background-color: var(--background-grey);
         display: flex;
         flex-direction: row;
         justify-content: center;
