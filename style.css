@@ -2,6 +2,7 @@
 @media only screen {
     :root {
         --ci-color: orange;
+        --background-grey: #585858;
         --footer-height: 4em;
     }
 
@@ -24,6 +25,24 @@
         margin-right: auto;
     }
 
+    /*double class because of weight of selector*/
+    .button.button {
+        background-color: white;
+        color: black;
+        padding: 1em;
+        border: none;
+        border-radius: 0.5rem;
+        cursor: pointer;
+        outline: none;
+        text-align: center;
+        margin: 1em;
+    }
+
+    .button:hover {
+        background-color: var(--ci-color);
+        color: black;
+    }
+
     a,
     a:visited {
         text-decoration: none;
@@ -43,10 +62,15 @@
     h2 {
     }
 
-    h3 {
+    hr {
+        height: 1px;
+        border: none;
+        background-color: white;
+        width: 100%;
+        grid-column: 1/3;
     }
 
-    .car-description {
+    .article {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
@@ -99,16 +123,12 @@
         padding-top: 5em;
         width: 62%;
         height: calc(100% - 5em);
-        color: white;
-        background: #686868;
+        background: var(--background-grey);
     }
 
     .extended-nav .menu-link {
-        /*meh*/
-        color: white;
         width: 100%;
         float: left;
-        /*margin-top: 20px;*/
         text-align: center;
     }
     .extended-nav-text {
@@ -117,10 +137,27 @@
         padding: 1em;
         border-bottom: solid 1px white;
     }
+
     .extended-nav .menu-link:hover,
     .menu-link:focus {
         /*meh*/
         color: var(--ci-color);
+    }
+
+    form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 40% 60%;
+    }
+
+    form label,
+    form input {
+        margin-top: 1em;
+    }
+
+    form label {
+        text-align: right;
+        margin-right: 1em;
     }
 
     .content-img {
@@ -131,6 +168,28 @@
 
     .content-paragraph {
         width: 100%;
+    }
+
+    .jobs {
+        width: 100%;
+    }
+
+    .job {
+        display: grid;
+        grid-template-columns: 50% 25% 25%;
+    }
+
+    .job h3,
+    .job p,
+    .job a {
+        font-size: 16px;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        padding: 1em;
+    }
+
+    .job a {
+        text-align: right;
     }
 
     .close {
@@ -166,16 +225,20 @@
     }
 
     footer {
-        margin-top: -40px;
+        /*margin-top: -40px;*/
         bottom: calc(0 - var(--footer-height));
         height: var(--footer-height);
         width: 100%;
-        background-color: #686868;
+        background-color: var(--background-grey);
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         gap: 3em;
+    }
+
+    .footerStart {
+        margin-top: -40px;
     }
 }
 
@@ -199,7 +262,7 @@
         width: 20em;
     }
 
-    .car-description {
+    .article {
         flex-direction: row;
         gap: 2em;
         border-bottom: none;
@@ -214,7 +277,13 @@
         width: 38em;
     }
 
-    footer {
+    form {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 32% 68%;
+    }
+
+    .footerStart {
         /*WTF?!*/
         margin-top: -4px;
     }

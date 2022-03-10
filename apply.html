@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>TESA</title>
+    </head>
+
+    <body>
+        <nav>
+            <a href="index.html"><h1>tesa</h1></a>
+            <ul>
+                <li><a href="./limousine.html">Limousine</a></li>
+                <li><a href="#">Coupè</a></li>
+                <li><a href="#">Roadster</a></li>
+                <li><a href="#">SUV</a></li>
+                <li><a href="#">Van</a></li>
+            </ul>
+            <span><a id="nav-trigger" href="#">menu</a></span>
+            <div id="extended-nav" class="extended-nav d-none">
+                <a id="nav-close" class="close" href="#"></a>
+                <!-- prettier-ignore -->
+                <a class="menu-link" href="#"><div class="extended-nav-text">Über uns</div></a>
+                <!-- prettier-ignore -->
+                <a class="menu-link" href="./jobs.html"><div class="extended-nav-text">Jobs</div></a>
+                <!-- prettier-ignore -->
+                <a class="menu-link" href="#"><div class="extended-nav-text">Standorte</div></a>
+            </div>
+        </nav>
+        <main>
+            <article class="article">
+                <h2>Teamleiter Entwicklung (m/w/d) Mobile</h2>
+                <form id="form" onsubmit="return validateApplicationForm()">
+                    <label for="title">Titel:</label>
+                    <input id="title" name="title" type="text" />
+                    <label for="surname">Name:</label>
+                    <input id="surname" name="surname" type="text" required />
+                    <label for="name">Vorname:</label>
+                    <input id="name" name="name" type="text" required />
+                    <label for="birthday">Geburtstag:</label>
+                    <input id="birthday" name="birthday" type="date" required />
+                    <hr />
+                    <label for="road">Straße:</label>
+                    <input id="road" name="road" type="text" required />
+                    <label for="no">Hausnummer:</label>
+                    <input id="no" name="no" type="text" required />
+                    <label for="zip">PLZ:</label>
+                    <input id="zip" name="zip" type="text" required />
+                    <label for="city">Ort:</label>
+                    <input id="city" name="city" type="text" required />
+                    <hr />
+                    <label for="phone">Telefonnummer:</label>
+                    <input id="phone" name="phone" type="tel" />
+                    <label for="email">E-Mail:</label>
+                    <input id="email" name="email" type="email" />
+                </form>
+                <input
+                    type="submit"
+                    name="submit"
+                    id="submit"
+                    form="form"
+                    class="button"
+                />
+            </article>
+        </main>
+        <footer>
+            <a href="impressum.html">Impressum</a>
+        </footer>
+    </body>
+    <script src="./scripts/scripts.js"></script>
+</html>
