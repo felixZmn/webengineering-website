@@ -198,6 +198,10 @@
         display: flex;
     }
 
+    iframe {
+        max-width: 100%;
+    }
+
     .close {
         position: fixed;
         right: 1em;
