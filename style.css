@@ -192,6 +192,12 @@
         text-align: right;
     }
 
+    table {
+        max-width: 100%;
+        overflow: auto;
+        display: flex;
+    }
+
     .close {
         position: fixed;
         right: 1em;
