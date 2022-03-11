@@ -160,6 +160,11 @@
         margin-right: 1em;
     }
 
+    form textarea {
+        margin-top: 1em;
+        height: 10em;
+    }
+
     .content-img {
         width: 100%;
         object-fit: cover;
@@ -291,6 +296,16 @@
         width: 100%;
         display: grid;
         grid-template-columns: 32% 68%;
+    }
+
+    form input {
+        width: 40em;
+    }
+
+    form textarea {
+        margin-top: 1em;
+        height: 10em;
+        width: 40em;
     }
 
     .footerStart {
