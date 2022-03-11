@@ -298,14 +298,10 @@
         grid-template-columns: 32% 68%;
     }
 
-    form input {
-        width: 40em;
-    }
-
+    
     form textarea {
         margin-top: 1em;
-        height: 10em;
-        width: 40em;
+        height: 20em;
     }
 
     .footerStart {
@@ -319,3 +315,7 @@ table, th, td {
     border-collapse: collapse;
     padding: 15px;
   }
+
+.datenschutz ul {
+        list-style-type: none;
+}
