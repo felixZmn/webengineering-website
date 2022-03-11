@@ -36,15 +36,33 @@ function imagefun(b) {
         Image_Id.src = "https://imgr1.auto-motor-und-sport.de/Mercedes-AMG-C-63-Kurbelgehaeuse-AMG-4-0-Liter-V8-Biturbomotor-Motorbaureihe-M177-169FullWidth-91a24ec9-1629285.jpg";
     } else {
         if (b === 1) {
-            Image_Id.src = "https://p6.focus.de/img/fotos/id_24354358/ampnet-photo-20211022-203564.jpg?im=Resize%3D%28800%2C863%29&impolicy=perceptual&quality=medium&hash=67615a834fe3808206102c755ca3c797d3ef07ea8ea3e439aee571e0021c8892";
-            document.getElementById("p1").innerHTML = "Ein Motor [ˈmoːtoːr] (auch [moˈtoːr]; lateinisch mōtor ‚Beweger‘) ist eine Kraftmaschine, die mechanische Arbeit verrichtet, indem sie eine Energieform, z. B. thermische, chemische, hydraulische, pneumatische oder elektrische Energie, in Bewegungsenergie umwandelt.";
+            Image_Id.src = "https://www.autozeitung.de/assets/styles/article_image/public/field/image/audi-fuenfzylinder.jpg?itok=eXZ48xtb";
+            document.getElementById("p1").innerHTML = "Der Fünfzylinder ist ein starker Charakter mit unverwechselbarer Stimmlage. <br> Sein 2,1-Liter-Reihen-Fünfzylinder mit Turboaufladung leistet 265 kW (360 PS) bei 6.500 Umdrehungen pro Minute und entwickelt 450 Newtonmeter Drehmoment bei 4.000 Touren <br>Kraftstoffverbrauch kombiniert in l/100 km: 8,4 - 8,2 <br> CO2-Emission kombiniert in g/km: 192 - 187";
         } else {
             if (b === 2) {
-                Image_Id.src = "https://blog.reifen-vor-ort.de/hs-fs/hubfs/RVO%20Blog/Artikel-Bilder/Felgen/rvo-blog_welche%20felge%20fu%CC%88r%20mein%20auto_viele%20felgen.jpg?width=500&name=rvo-blog_welche%20felge%20fu%CC%88r%20mein%20auto_viele%20felgen.jpg";
-                document.getElementById("p1").innerHTML = "Als Autofelge bezeichnet man umgangssprachlich das Rad eines Autos ohne den Autoreifen. Im eigentlichen Sinne bezeichnet die Felge nur den äußeren Ring, der durch die Radscheibe oder den Radkranz mit dem Radflansch verbunden ist. Räder für Pkw sind nicht zerstörungsfrei zerlegbar, Felge und Radscheibe sind miteinander verschweißt, vernietet oder in einem Stück gegossen, wodurch sich eine fachsprachlich nicht vollständig zutreffende Synonymität von Rad und Felge ergibt (was ähnlich auch für Reifen und Rad gilt). Lediglich für Nutzfahrzeuge wie Spezial-Lkw, Trecker (Schlepper) und einige Sonderanwendungen (Motorsport) sind aus mehreren Teilen zusammenmontierte Räder üblich.";
+                Image_Id.src = "https://thumbs.gfycat.com/AchingDeterminedHoiho.webp";
+                document.getElementById("p1").innerHTML = "Beim permanenten Allradantrieb quattro hat Audi seinen Vorsprung über mehr als drei Jahrzehnte hinweg ausgebaut. Jetzt folgt der nächste große Schritt – quattro in Verbindung mit ultra-Technologie.";
             } else {
-                Image_Id.src = "https://i.ebayimg.com/00/s/NTYwWDEwMjQ=/z/a6wAAOSw~7JcoGhg/$_59.JPG";
-                document.getElementById("p1").innerHTML = "Mit der Entwicklung der Modelle stiegen Abmessungen und Leergewicht stetig. Von VW Golf I bis VW Golf VIII ergeben sich folgende Zunahmen: Länge 94 cm, Breite 18 cm, Höhe 11 cm, Radstand 28 cm und Leergewicht 880 kg (entspricht einer Verdoppelung).";
+                Image_Id.src = "https://cdn.audi.at/media/Theme_Banners_Banner_Image_Component/55162-banner-317046-image/dh-1920-918e09/e68cbf40/1627886518/1920x1920-a4-2020-1974-1-oe.jpg";
+                document.getElementById("p1").innerHTML = "Leergewicht in kg*: 1560 <br> Zul. Gesamtgewicht in kg: 2085 <br> Zul. Dachlast/Stützlast in kg: 90/80 <br> Zul. Anhängelast ungebremst in kg: 750 <br> Gepäckraumvolumen in l: 495 <br> Tankinhalt in l (ca.): 54";
+                
+            }
+        }
+    }
+}
+
+function imagefun2(b) {
+    let Image_Id = document.getElementById('getImage2');
+    if (Image_Id.src.match("https://www.autozeitung.de/assets/styles/article_image/public/gallery_images/2016/03/peel-p50-16.jpg?itok=AezY5hVn")) {
+        Image_Id.src = "https://imgr1.auto-motor-und-sport.de/Mercedes-AMG-C-63-Kurbelgehaeuse-AMG-4-0-Liter-V8-Biturbomotor-Motorbaureihe-M177-169FullWidth-91a24ec9-1629285.jpg";
+    } else {
+        if (b === 1) {
+            Image_Id.src = "https://cdn.audi.at/media/FullWidthImage_Component/55164-513420/dh-900-33d43f/4e7d29e1/1627886514/audi-a4-avant-abmessungen-seite.jpg";
+        } else {
+            if (b === 2) {
+                Image_Id.src = "https://cdn.audi.at/media/FullWidthImage_Component/55165-513425/dh-900-33d43f/3cb70519/1627888970/audi-a4-avant-abmessungen-oben.jpg";
+            } else {
+                Image_Id.src = "https://cdn.audi.at/media/FullWidthImage_Component/55166-513429/dh-900-33d43f/abe5478e/1627888973/audi-a4-avant-abmessungen-vorne-hinten.jpg";                
             }
         }
     }
