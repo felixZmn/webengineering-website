@@ -41,7 +41,7 @@ function imagefun(b) {
         } else {
             if (b === 2) {
                 Image_Id.src = "https://thumbs.gfycat.com/AchingDeterminedHoiho.webp";
-                document.getElementById("p1").innerHTML = "Beim permanenten Allradantrieb quattro hat Audi seinen Vorsprung über mehr als drei Jahrzehnte hinweg ausgebaut. Jetzt folgt der nächste große Schritt – quattro in Verbindung mit ultra-Technologie.";
+                document.getElementById("p1").innerHTML = "Beim permanenten Allradantrieb quattro hat TONK seinen Vorsprung über mehr als drei Jahrzehnte hinweg ausgebaut. Jetzt folgt der nächste große Schritt – quattro in Verbindung mit ultra-Technologie.";
             } else {
                 Image_Id.src = "https://cdn.audi.at/media/Theme_Banners_Banner_Image_Component/55162-banner-317046-image/dh-1920-918e09/e68cbf40/1627886518/1920x1920-a4-2020-1974-1-oe.jpg";
                 document.getElementById("p1").innerHTML = "Leergewicht in kg*: 1560 <br> Zul. Gesamtgewicht in kg: 2085 <br> Zul. Dachlast/Stützlast in kg: 90/80 <br> Zul. Anhängelast ungebremst in kg: 750 <br> Gepäckraumvolumen in l: 495 <br> Tankinhalt in l (ca.): 54";
