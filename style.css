@@ -284,12 +284,12 @@
     }
 
     .content-img {
-        width: 38em;
+        width: 50em;
         object-fit: cover;
     }
 
     .content-paragraph {
-        width: 38em;
+        width: 50em;
     }
 
     form {
@@ -298,7 +298,6 @@
         grid-template-columns: 32% 68%;
     }
 
-    
     form textarea {
         margin-top: 1em;
         height: 20em;
@@ -310,12 +309,14 @@
     }
 }
 
-table, th, td {
+table,
+th,
+td {
     border: 1px solid white;
     border-collapse: collapse;
     padding: 15px;
-  }
+}
 
 .datenschutz ul {
-        list-style-type: none;
+    list-style-type: none;
 }
