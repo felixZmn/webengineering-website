@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="carstyle.css" />
+        <title>TONK</title>
+    </head>
+
+    <body>
+        <nav>
+            <a href="index.html"><h1>TONK</h1></a>
+            <ul>
+                <li><a href="./limousine.html">Limousine</a></li>
+                <li><a href="./coupe.html">Coupè</a></li>
+                <li><a href="#">Roadster</a></li>
+                <li><a href="./suv.html">SUV</a></li>
+                <li><a href="./van.html">Van</a></li>
+            </ul>
+            <span><a id="nav-trigger" href="#">menu</a></span>
+            <div id="extended-nav" class="extended-nav d-none">
+                <a id="nav-close" class="close" href="#"></a>
+                <a class="menu-link" href="#"
+                    ><div class="extended-nav-text">Über uns</div></a
+                >
+                <a class="menu-link" href="./jobs.html"
+                    ><div class="extended-nav-text">Jobs</div></a
+                >
+                <a class="menu-link" href="#"
+                    ><div class="extended-nav-text">Standorte</div></a
+                >
+                <a class="menu-link" href="kontakt.html"
+                    ><div class="extended-nav-text">Kontakt</div></a
+                >
+            </div>
+        </nav>
+        <main>
+            <h2>Van</h2>
+            <article id="gifcoupe">
+                <video width="800" height="450" controls>
+                    <source src="./videos/Youga.mp4" type="video/mp4">
+                    <source src="./videos/Youga.ogg" type="video/ogg">
+                  Your browser does not support the video tag.
+                  </video> 
+                <p class="Catchtext">"Klassisches Design trifft Top-Performance"</p>
+                <p class="Catchtext">Der Youga Classic vereint ein Klassiches Design mit neuster Motortechnologie und Leistung. Hier wurden keine Kompromisse geschlossen. Mit der einzigartigen individualisierbarkeit können Sie dem Youga auch einen persönlichen Touch verleihen. Der Youga Classic hat von Arbeitern bis hin zu Van Enthusiasten für jeden etwas zu bieten.</p>
+            </article>
+            <br /><br /><br /><br />
+            <h2>Technische Daten</h2>
+            <div class="carButtons">
+                <button onclick="van(1)">Weiß</button>
+                <button onclick="van(2)">Grün</button>
+                <button onclick="van(3)">Blau</button>
+                <button onclick="van(4)">Custom</button>
+            </div>
+            <br />
+            <div class="description">
+                <img
+                    src="./images/YougaClassic.jpg"
+                    id="getImage"
+                />
+                <p id="p1">Dank unseres Custom Youga-Programms können Sie das Fahrzeug in einer beliebigen Farbe bestellen. Doch es endet nicht hier: Sie können sogar custom Paintjobs einreichen oder vorgefertigte auswählen, um dem Youga Classic eine persönlichen Note zu verleihen. Hier sind Farbbeispiele zu finen.</p>
+            </div>
+            
+            <br>
+            <br>
+            <br>
+            <h2>Abmessungen</h2>
+            <br>
+            <div class="carButtons">
+                <button onclick="van2(1)">Motor</button>
+                <button onclick="van2(2)">Sitzplätze</button>
+                <button onclick="van2(3)">Stauraum</button>
+            </div>
+            <br>
+            <br>
+            <div class="description">
+                <img
+                    src="./images/YougaFront.jpg"
+                    id="getImage2"
+                />
+                <p id="p2">7,3-l-V8-Motor 7.3 Liter aus dem F-Super-Duty-Serie-Programm. 430 PS, 550 rpm, 644 Nm Drehmoment.</p>
+            </div>
+        </main>
+        <footer>
+            <a href="./impressum.html">Impressum</a>
+            <a href="./datenschutz.html">Datenschutz</a>
+        </footer>
+    </body>
+    <script src="./scripts/scripts.js"></script>
+</html>
