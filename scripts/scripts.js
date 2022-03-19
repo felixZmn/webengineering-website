@@ -106,7 +106,7 @@ function van2(v) {
     let Image_Id = document.getElementById('getImage2');
     if (v === 1) {
         Image_Id.src = "./images/YougaFront.jpg";
-        document.getElementById("p2").innerHTML = "7,3-l-V8-Motor aus dem F-Super-Duty-Serie-Programm. 430 PS, 550 rpm, 644 Nm Drehmoment, 7.3 Liter Tank.";
+        document.getElementById("p2").innerHTML = "7,3-l-V8-Motor 7.3 Liter aus dem F-Super-Duty-Serie-Programm. 430 PS, 550 rpm, 644 Nm Drehmoment.";
     } else {
         if (v === 2) {
             Image_Id.src = "./images/YougaSide.jpg";
