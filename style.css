@@ -59,9 +59,6 @@
         text-transform: uppercase;
     }
 
-    h2 {
-    }
-
     hr {
         height: 1px;
         border: none;
@@ -201,9 +198,23 @@
         max-width: 100%;
         overflow: auto;
         display: flex;
+        border: none;
+    }
+    tr, th, td {
+        border: none;
+        border-collapse: collapse;
+        padding: 1em;
+    }
+
+    .datenschutz ul {
+        list-style-type: none;
     }
 
     iframe {
+        max-width: 100%;
+    }
+
+    video {
         max-width: 100%;
     }
 
@@ -312,17 +323,4 @@
         margin-top: -4px;
     }
 }
-
-table,
-th,
-td {
-    border: 1px solid white;
-    border-collapse: collapse;
-    padding: 15px;
-}
-
-.datenschutz ul {
-    list-style-type: none;
-}
-
   
