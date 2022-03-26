@@ -4,14 +4,15 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="style.css" />
-        <title>TONK</title>
+        <!--<link rel="stylesheet" href="map.css" />-->
+        <title>TONK</title>   
     </head>
 
     <body>
         <nav>
             <a href="index.html"><h1>TONK</h1></a>
             <ul>
-                <li><a href="./limousine.html">Limousine</a></li>
+                <li><a href="limousine.html">Limousine</a></li>
                 <li><a href="./coupe.html">Coupè</a></li>
                 <li><a href="#">Roadster</a></li>
                 <li><a href="./suv.html">SUV</a></li>
@@ -31,16 +32,29 @@
             </div>
         </nav>
         <main>
-            <img
-                src="./images/limousine.jpg"
-                alt="Bild einer Limousine"
-                class="main-img"
-            />
+            <h1>Unsere Standorte</h1>
+            <iframe width="800" height="450"scrolling="no" 
+            src="https://www.openstreetmap.org/export/embed.html?bbox=10.150991678237917%2C48.68043850352033%2C10.158072710037233%2C48.68356236294611&amp;layer=mapnik&amp;marker=48.682000457451466%2C10.154532194137573&amp;marker=48.682000457451466%2C10.154532194137573">
+            </iframe><br/>
+            <small><a href="https://www.openstreetmap.org/#map=18/48.68198/10.15389">Größere Karte anzeigen</a></small>
         </main>
-        <footer class="footerStart">
+
+        <!-- OpenLayers not working as expected, standalone only in main it works :( -->
+        <!--<main onload="drawMap()">
+            <h1>Unsere Standorte</h1>
+            <div id="map"></div> 
+        </main>-->
+
+        <footer>
             <a href="./impressum.html">Impressum</a>
             <a href="./datenschutz.html">Datenschutz</a>
         </footer>
     </body>
     <script src="./scripts/scripts.js"></script>
+    <script src="https://openlayers.org/api/OpenLayers.js"></script>
+    <script src="https://openstreetmap.org/openlayers/OpenStreetMap.js"></script>
+    <script src="scripts/standort.js"></script>
+
 </html>
+
+

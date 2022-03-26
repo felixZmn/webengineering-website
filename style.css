@@ -255,6 +255,10 @@
     .footerStart {
         margin-top: -40px;
     }
+
+    .datenschutz ul {
+        list-style-type: none;
+    }
 }
 
 /*Desktop-Ansicht*/
@@ -320,3 +324,5 @@ td {
 .datenschutz ul {
     list-style-type: none;
 }
+
+  
